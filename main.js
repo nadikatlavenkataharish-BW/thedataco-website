@@ -28,11 +28,10 @@ nav.innerHTML=`<div class="progress"></div>
     <a href="analytics.html"><div class="ico" style="background:rgba(0,112,242,.2);color:#1B90FF">${I.chart}</div><div><strong>Data &amp; Analytics</strong><span>BW/4HANA, Datasphere, SAC, HANA Cloud</span></div></a>
     <a href="abap-fiori.html"><div class="ico" style="background:rgba(0,194,199,.18);color:#00C2C7">${I.code}</div><div><strong>ABAP &amp; Fiori</strong><span>S/4HANA development, RAP, UI5 apps</span></div></a>
     <a href="grc.html"><div class="ico" style="background:rgba(240,171,0,.18);color:#F0AB00">${I.shield}</div><div><strong>SAP GRC</strong><span>Access Control &amp; Process Control</span></div></a>
-    <a href="about.html#delivery"><div class="ico" style="background:rgba(123,97,255,.2);color:#A08CFF">${I.globe}</div><div><strong>Managed Services</strong><span>Onshore + offshore India support</span></div></a>
+    <a href="about.html#delivery"><div class="ico" style="background:rgba(123,97,255,.2);color:#A08CFF">${I.globe}</div><div><strong>Managed Services</strong><span>Proactive support &amp; continuous improvement</span></div></a>
    </div>
   </div>
   <a href="about.html" class="${page==='about'?'active':''}">About</a>
-  <a href="index.html#dataviz">DataVizCo</a>
  </div>
  <a class="btn btn-gold magnetic" href="contact.html">Let's talk ${ARROW}</a>
  <button class="burger" aria-label="Open menu" aria-expanded="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
@@ -52,8 +51,8 @@ const foot=document.createElement('footer');
 foot.innerHTML=`<div class="wrap">
  <div class="f-grid">
   <div><a class="logo" href="index.html">${LOGO}<span>The Data <b>Co</b></span></a>
-   <p class="about-f">SAP data, analytics, application and GRC specialists. Cape Town based, with an offshore delivery team in India.</p></div>
-  <div><h4>Services</h4><ul><li><a href="analytics.html">Data &amp; Analytics</a></li><li><a href="abap-fiori.html">ABAP &amp; Fiori</a></li><li><a href="grc.html">SAP GRC</a></li><li><a href="index.html#dataviz">DataVizCo</a></li></ul></div>
+   <p class="about-f">Specialist SAP partner for data &amp; analytics, application development and governance. Senior expertise, delivered with care, from strategy to steady state.</p></div>
+  <div><h4>Services</h4><ul><li><a href="analytics.html">Data &amp; Analytics</a></li><li><a href="abap-fiori.html">ABAP &amp; Fiori</a></li><li><a href="grc.html">SAP GRC</a></li><li><a href="about.html#delivery">Managed Services</a></li></ul></div>
   <div><h4>Company</h4><ul><li><a href="about.html">About us</a></li><li><a href="about.html#delivery">Delivery model</a></li><li><a href="contact.html">Contact</a></li></ul></div>
   <div><h4>Get in touch</h4><ul><li><a href="mailto:${EMAIL}">${EMAIL}</a></li><li><a href="tel:+27733503260">073 350 3260</a></li><li style="color:#9BB0C9">The Colosseum, Century Way,<br>Century City, Cape Town</li></ul></div>
  </div>

@@ -141,9 +141,9 @@ section{padding:130px 0;position:relative}
 /* clients */
 .clients{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
 .client .spot-in{display:flex;align-items:center;gap:32px;padding:32px 36px}
-.logo-slot{flex:none;width:200px;height:110px;border-radius:18px;background:#fff;display:grid;place-items:center;padding:18px;transition:transform .4s}
+.logo-slot{flex:none;width:200px;height:110px;border-radius:18px;background:#fff;display:flex;align-items:center;justify-content:center;padding:18px;transition:transform .4s;overflow:hidden}
 .client:hover .logo-slot{transform:scale(1.05) rotate(-1deg)}
-.logo-slot img{max-width:100%;max-height:100%;object-fit:contain}
+.logo-slot img{display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
 .logo-fallback{font:800 34px var(--display);letter-spacing:.04em;color:#0A1426}
 .client-meta strong{display:block;font:700 24px var(--display);margin-bottom:6px}
 .client-meta span{color:var(--muted);font-size:15px}
