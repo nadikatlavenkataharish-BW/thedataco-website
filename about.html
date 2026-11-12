@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About | The Data Co</title>
+<meta name="description" content="The Data Co is a Cape Town SAP consultancy with an offshore delivery team in India, specialising in SAP analytics, ABAP & Fiori and GRC.">
+<meta name="theme-color" content="#050B18">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23050B18'/%3E%3Cpath d='M12 9 H31 A23 23 0 0 1 31 55 H12 Z' fill='none' stroke='%23fff' stroke-width='6'/%3E%3Crect x='20' y='37' width='6' height='11' fill='%231B90FF'/%3E%3Crect x='29' y='29' width='6' height='19' fill='%2300C2C7'/%3E%3Crect x='38' y='21' width='6' height='27' fill='%23F0AB00'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+<style>
+.mission{font:600 clamp(26px,3.4vw,46px)/1.25 var(--display);letter-spacing:-.02em;max-width:1050px}
+.mission span{color:var(--dim);transition:color .5s}
+.mission span.lit{color:#fff}
+.leader{display:grid;grid-template-columns:auto 1fr;gap:34px;align-items:center;padding:40px}
+.avatar{width:120px;height:120px;border-radius:30px;display:grid;place-items:center;font:800 40px var(--display);background:linear-gradient(135deg,#0070F2,#00C2C7);color:#fff}
+@media(max-width:680px){.leader{grid-template-columns:1fr;padding:28px}}
+</style>
+</head>
+<body data-page="about">
+<main>
+
+<section class="phero">
+  <div class="orb a"></div><div class="orb b"></div>
+  <div class="wrap" style="position:relative;z-index:2">
+    <div class="crumbs rv"><a href="index.html">Home</a> / About</div>
+    <h1 class="split">SAP specialists who <span class="grad">care about outcomes.</span></h1>
+    <p class="lead rv d1">The Data Co (Pty) Ltd is a South African SAP consultancy headquartered in Century City, Cape Town. We help organisations get more from SAP across data &amp; analytics, application development and governance.</p>
+  </div>
+</section>
+
+<section style="padding-top:20px">
+  <div class="wrap">
+    <span class="tag rv">Our mission</span>
+    <p class="mission" id="mission" style="margin-top:26px">To turn complex SAP landscapes into simple, trusted platforms, so that every decision is backed by reliable data, every process runs on solid code, and every user has exactly the access they need.</p>
+  </div>
+</section>
+
+<section id="delivery">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="tag rv">Delivery model</span><h2 class="split">Local leadership. Offshore scale.</h2></div><p class="rv">Engagements are led from Cape Town, with development and support delivered by our team in India.</p></div>
+    <div class="map-box rv">
+      <svg viewBox="0 0 1000 460" aria-label="Cape Town to India delivery model">
+        <defs><pattern id="dp" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="rgba(255,255,255,.12)"/></pattern>
+        <radialGradient id="gl"><stop offset="0" stop-color="#F0AB00" stop-opacity=".7"/><stop offset="1" stop-color="#F0AB00" stop-opacity="0"/></radialGradient>
+        <radialGradient id="gl2"><stop offset="0" stop-color="#1B90FF" stop-opacity=".7"/><stop offset="1" stop-color="#1B90FF" stop-opacity="0"/></radialGradient></defs>
+        <rect width="1000" height="460" fill="url(#dp)"/>
+        <path class="arc" d="M300 370 Q 520 40 720 200" fill="none" stroke="#00C2C7" stroke-width="3"/>
+        <circle cx="300" cy="370" r="60" fill="url(#gl)"/><circle cx="300" cy="370" r="9" fill="#F0AB00"/>
+        <circle cx="720" cy="200" r="60" fill="url(#gl2)"/><circle cx="720" cy="200" r="9" fill="#1B90FF"/>
+        <g font-family="Sora" font-weight="700" fill="#fff" font-size="22"><text x="150" y="420">Cape Town</text><text x="750" y="180">India</text></g>
+        <g font-family="JetBrains Mono" font-size="13" fill="#9BB0C9"><text x="150" y="444">Leadership · architecture · client delivery</text><text x="750" y="204">Development · support · AMS</text></g>
+      </svg>
+    </div>
+    <div class="stats rv" style="margin-top:22px">
+      <div class="stat"><strong class="grad" data-count="2">0</strong><span>Delivery hubs</span></div>
+      <div class="stat"><strong class="grad" data-count="3">0</strong><span>SAP practices</span></div>
+      <div class="stat"><strong class="grad">ZA</strong><span>Registered in South Africa</span></div>
+      <div class="stat"><strong class="grad">2024</strong><span>Company registered</span></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:40px">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="tag rv">What we stand for</span><h2 class="split">Four values that shape every engagement.</h2></div></div>
+    <div class="values">
+      <div class="value rv"><div class="n">01</div><h3>Depth over breadth</h3><p>We stay focused on SAP, so our consultants bring real specialist depth.</p></div>
+      <div class="value rv d1"><div class="n">02</div><h3>Ownership</h3><p>We treat your systems like our own, from root cause to final fix.</p></div>
+      <div class="value rv d2"><div class="n">03</div><h3>Clarity</h3><p>Plain language, transparent estimates and honest status updates.</p></div>
+      <div class="value rv d3"><div class="n">04</div><h3>Built to last</h3><p>Best-practice, documented solutions your team can own.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:40px">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="tag rv">Leadership</span><h2 class="split">Hands-on leadership.</h2></div></div>
+    <div class="glass leader rv">
+      <div class="avatar" aria-hidden="true">VN</div>
+      <div><h3 style="font-size:28px">Venkata Nadikatla</h3><p style="color:var(--gold);font-weight:700;margin:6px 0 14px">Director · Principal Consultant, Analytics</p><p style="color:var(--muted);max-width:720px">Venkata leads The Data Co's delivery and client relationships, with a hands-on background in SAP BW, SAP Analytics Cloud and HANA. He stays close to every engagement, from roadmap workshops to go-live.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:20px">
+  <div class="wrap">
+    <div class="cta-big rv">
+      <h2>Let's talk about your SAP landscape.</h2>
+      <p>Visit us at The Colosseum, Century Way, Century City, or drop us a line.</p>
+      <div class="ctas" style="justify-content:center"><a class="btn btn-gold magnetic" href="contact.html">Contact us</a></div>
+    </div>
+  </div>
+</section>
+</main>
+<script src="main.js"></script>
+<script>
+// mission text lights up word by word as you scroll
+(function(){const m=document.getElementById('mission');m.innerHTML=m.textContent.split(' ').map(w=>'<span>'+w+'</span>').join(' ');const ws=[...m.children];
+const u=()=>{const r=m.getBoundingClientRect();const p=Math.min(1,Math.max(0,(innerHeight*.85-r.top)/(r.height+innerHeight*.35)));const n=Math.round(p*ws.length);ws.forEach((w,i)=>w.classList.toggle('lit',i<n));};addEventListener('scroll',u,{passive:true});u();})();
+</script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | The Data Co</title>
+<meta name="description" content="Contact The Data Co: The Colosseum, Century Way, Century City, Cape Town. 073 350 3260 · admin@thedataco.co.za">
+<meta name="theme-color" content="#050B18">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23050B18'/%3E%3Cpath d='M12 9 H31 A23 23 0 0 1 31 55 H12 Z' fill='none' stroke='%23fff' stroke-width='6'/%3E%3Crect x='20' y='37' width='6' height='11' fill='%231B90FF'/%3E%3Crect x='29' y='29' width='6' height='19' fill='%2300C2C7'/%3E%3Crect x='38' y='21' width='6' height='27' fill='%23F0AB00'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="contact">
+<main>
+
+<section class="phero" style="padding-bottom:40px">
+  <div class="orb a"></div><div class="orb c"></div>
+  <div class="wrap" style="position:relative;z-index:2">
+    <div class="crumbs rv"><a href="index.html">Home</a> / Contact</div>
+    <h1 class="split">Let's start <span class="grad">something good.</span></h1>
+    <p class="lead rv d1">Three quick steps and your enquiry is on its way. We reply within one business day.</p>
+  </div>
+</section>
+
+<section style="padding-top:20px">
+  <div class="wrap" style="display:grid;grid-template-columns:1.3fr .7fr;gap:24px" id="cgrid">
+    <form class="glass wizard rv" id="wizard" novalidate>
+      <div class="w-steps"><span></span><span></span><span></span></div>
+
+      <div class="w-pane">
+        <h3>What can we help with?</h3><p>Pick the area closest to your need.</p>
+        <div class="choices">
+          <div class="choice"><input type="radio" name="practice" id="p1" value="Data &amp; Analytics"><label for="p1"><span class="ci" style="color:#1B90FF"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 6-7"/></svg></span>Data &amp; Analytics</label></div>
+          <div class="choice"><input type="radio" name="practice" id="p2" value="ABAP &amp; Fiori"><label for="p2"><span class="ci" style="color:#00C2C7"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg></span>ABAP &amp; Fiori</label></div>
+          <div class="choice"><input type="radio" name="practice" id="p3" value="SAP GRC"><label for="p3"><span class="ci" style="color:#F0AB00"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/></svg></span>SAP GRC</label></div>
+          <div class="choice"><input type="radio" name="practice" id="p4" value="DataVizCo Dashboard Makeover"><label for="p4"><span class="ci" style="color:#A08CFF"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 16v-4M12 16V8M16 16v-6"/></svg></span>Dashboard makeover</label></div>
+        </div>
+        <div class="w-nav"><span></span><button type="button" class="btn btn-primary" data-next>Next <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
+      </div>
+
+      <div class="w-pane">
+        <h3>How would you like to work with us?</h3><p>We'll tailor the conversation to it.</p>
+        <div class="choices">
+          <div class="choice"><input type="radio" name="engage" id="e1" value="Project delivery"><label for="e1">Project delivery</label></div>
+          <div class="choice"><input type="radio" name="engage" id="e2" value="Managed services / support"><label for="e2">Managed services / support</label></div>
+          <div class="choice"><input type="radio" name="engage" id="e3" value="Consultants for my team"><label for="e3">Consultants for my team</label></div>
+          <div class="choice"><input type="radio" name="engage" id="e4" value="Advice / not sure yet"><label for="e4">Advice / not sure yet</label></div>
+        </div>
+        <div class="w-nav"><button type="button" class="btn btn-ghost" data-prev>Back</button><button type="button" class="btn btn-primary" data-next>Next <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
+      </div>
+
+      <div class="w-pane">
+        <h3>Your details</h3><p>Submitting opens your email app with everything filled in.</p>
+        <div class="two"><div class="field"><label for="f-name">Full name</label><input id="f-name" name="name" required autocomplete="name"></div><div class="field"><label for="f-co">Company</label><input id="f-co" name="company" autocomplete="organization"></div></div>
+        <div class="two"><div class="field"><label for="f-em">Email</label><input id="f-em" name="email" type="email" required autocomplete="email"></div><div class="field"><label for="f-ph">Phone</label><input id="f-ph" name="phone" type="tel" autocomplete="tel"></div></div>
+        <div class="field"><label for="f-msg">Tell us a little more</label><textarea id="f-msg" name="msg" required placeholder="e.g. We're on BW 7.5 and planning a move to Datasphere…"></textarea></div>
+        <div class="w-nav"><button type="button" class="btn btn-ghost" data-prev>Back</button><button type="submit" class="btn btn-gold">Send enquiry <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
+      </div>
+
+      <div class="w-pane" style="text-align:center;padding:30px 0">
+        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#F0AB00" stroke-width="2" style="margin:0 auto 20px"><circle cx="12" cy="12" r="10"/><path d="M7 12l3.5 3.5L17 9"/></svg>
+        <h3>Thank you!</h3><p style="margin:10px auto 0;max-width:420px">Your email app should have opened with your enquiry. If it didn't, email us at <a href="mailto:admin@thedataco.co.za" style="color:#F0AB00">admin@thedataco.co.za</a>.</p>
+      </div>
+    </form>
+
+    <div style="display:grid;gap:16px;align-content:start">
+      <a class="glass info-card rv d1" href="mailto:admin@thedataco.co.za"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div><div><h4>Email</h4><p>admin@thedataco.co.za</p></div></a>
+      <a class="glass info-card rv d2" href="tel:+27733503260"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg></div><div><h4>Phone</h4><p>073 350 3260</p></div></a>
+      <div class="glass info-card rv d3"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div><div><h4>Office</h4><p>The Colosseum, Century Way<br>Century City, Cape Town</p><a href="https://maps.google.com/?q=The+Colosseum+Century+Way+Century+City+Cape+Town" target="_blank" rel="noopener" style="color:#F0AB00;font-weight:700">Get directions →</a></div></div>
+      <div class="glass info-card rv d3"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div><div><h4>Hours</h4><p>Mon to Fri, 08:00 to 17:00 SAST</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="rv" style="height:380px;border-radius:24px;overflow:hidden;border:1px solid var(--line-2)">
+      <iframe class="mapframe" title="Map of The Colosseum, Century City" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=The%20Colosseum%2C%20Century%20Way%2C%20Century%20City%2C%20Cape%20Town&amp;z=15&amp;output=embed"></iframe>
+    </div>
+  </div>
+</section>
+</main>
+<style>@media(max-width:1000px){#cgrid{grid-template-columns:1fr!important}}</style>
+<script src="main.js"></script>
+</body>
+</html>
