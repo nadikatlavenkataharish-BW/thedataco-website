@@ -54,7 +54,7 @@ foot.innerHTML=`<div class="wrap">
    <p class="about-f">Specialist SAP partner for data &amp; analytics, application development and governance. Senior expertise, delivered with care, from strategy to steady state.</p></div>
   <div><h4>Services</h4><ul><li><a href="analytics.html">Data &amp; Analytics</a></li><li><a href="abap-fiori.html">ABAP &amp; Fiori</a></li><li><a href="grc.html">SAP GRC</a></li><li><a href="about.html#delivery">Managed Services</a></li></ul></div>
   <div><h4>Company</h4><ul><li><a href="about.html">About us</a></li><li><a href="about.html#delivery">Delivery model</a></li><li><a href="contact.html">Contact</a></li></ul></div>
-  <div><h4>Get in touch</h4><ul><li><a href="mailto:${EMAIL}">${EMAIL}</a></li><li><a href="tel:+27733503260">073 350 3260</a></li><li style="color:#9BB0C9">The Colosseum, Century Way,<br>Century City, Cape Town</li></ul></div>
+  <div><h4>Get in touch</h4><ul><li><a href="mailto:${EMAIL}">${EMAIL}</a></li><li><a href="tel:+27733503260">073 350 3260</a></li><li><a href="https://maps.app.goo.gl/kPXE2cd2zoovrrmh9" target="_blank" rel="noopener">1st Floor, The Colosseum,<br>Century Way, Century City,<br>Cape Town, 7441</a></li></ul></div>
  </div>
  <div class="giant" aria-hidden="true">The Data Co</div>
  <div class="legal"><span>© ${new Date().getFullYear()} The Data Co (Pty) Ltd · Reg. no 2024/386316/07</span><span>SAP and SAP product names are trademarks of SAP SE.</span></div>
